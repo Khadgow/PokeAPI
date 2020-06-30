@@ -1,12 +1,16 @@
 .pokemonCard {
-  height: 150px;
-  width: 150px;
+  height: 160px;
+  width: 160px;
   border: black solid 1px;
   text-align: center;
   border-radius: 10px;
   background-color:#2C2F33;
   cursor: pointer;
   transition-duration: 0.4s;
+  img{
+    width: 96px;
+    height: 96px;
+  }
 }
 .pokemonCard:hover{
   background-color: #4F5052;
