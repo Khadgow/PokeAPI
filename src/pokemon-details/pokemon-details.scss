@@ -1,0 +1,17 @@
+.pokemonCard {
+  height: 150px;
+  width: 150px;
+  border: black solid 1px;
+  text-align: center;
+  border-radius: 10px;
+  background-color:#2C2F33;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.pokemonCard:hover{
+  background-color: #4F5052;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}

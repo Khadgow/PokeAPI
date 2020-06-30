@@ -1,0 +1,32 @@
+.filter-button{
+  border: black solid 1px;
+  padding: 12px 25px;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  font-family: "Montserrat";
+  transition-duration: 0.4s;
+}
+
+.buttons-group{
+  margin: 10px;
+}
+.button-unactivated{
+  background-color: whitesmoke;
+}
+.button-active{
+  background-color: #7289DA;
+}
+
+.filter-button:hover{
+  background-color: #364C99
+}
+
+.filter-button:nth-last-child(1) {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.filter-button:nth-child(1) {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
